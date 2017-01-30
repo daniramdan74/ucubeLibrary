@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android uCube Lib v1.2.4.0.iml" filepath="$PROJECT_DIR$/Android uCube Lib v1.2.4.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libApp/libApp.iml" filepath="$PROJECT_DIR$/libApp/libApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testApp/testApp.iml" filepath="$PROJECT_DIR$/testApp/testApp.iml" />
+    </modules>
+  </component>
+</project>
