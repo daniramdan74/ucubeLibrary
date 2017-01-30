@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\Projects\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\Android\\Projects\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Projects_Win\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\Projects_Win\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\Android\\Projects\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\Projects_Win\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\Projects_Win\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.1\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    }
+]

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016, YouTransactor. All Rights Reserved.
+  ~
+  ~ Use of this product is contingent on the existence of an executed license
+  ~ agreement between YouTransactor or one of its sublicensee, and your
+  ~ organization, which specifies this software's terms of use. This software
+  ~ is here defined as YouTransactor Intellectual Property for the purposes
+  ~ of determining terms of use as defined within the license agreement.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device"
+        android:id="@+id/textView20"
+        android:layout_gravity="center_vertical"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deviceFld"
+        android:hint="Select uCube device"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server"
+        android:id="@+id/textView21"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/urlFld"/>
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable log"
+        android:id="@+id/logSwitch"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/saveSettingsBtn"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

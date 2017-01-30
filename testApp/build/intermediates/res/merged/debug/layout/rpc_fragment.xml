@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".rpc.RPCFragment">
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Secure session"
+        android:id="@+id/secureSessionSwitch"
+        android:layout_alignBaseline="@+id/displayMsgField"
+        android:layout_alignBottom="@+id/displayMsgField"
+        android:layout_alignRight="@+id/displayMsgField"
+        android:layout_alignEnd="@+id/displayMsgField"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display"
+            android:id="@+id/displayMsgBtn"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayMsgField"
+            android:text="uCube rocks !"
+            android:inputType="text"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set power timeout"
+            android:id="@+id/powerTimeoutBtn"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/powerTimeoutFld"
+            android:width="50dp"
+            android:text="180"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(s)"
+            android:id="@+id/textView16"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display choice"
+            android:id="@+id/choiceBtn"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/addChoiceBtn"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/delChoiceBtn"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:id="@+id/choiceListView"
+        android:listSelector="@android:color/holo_blue_light"
+        android:choiceMode="singleChoice"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get infos"
+            android:id="@+id/getInfosBtn"
+            android:layout_weight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get certificats"
+            android:id="@+id/getCertBtn"
+            android:layout_weight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log 1"
+            android:id="@+id/getLog1Btn"
+            android:layout_weight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log 2"
+            android:id="@+id/getLog2Btn"
+            android:layout_weight="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"/>
+    </GridLayout>
+
+</LinearLayout>

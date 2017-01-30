@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="2250684146978"
+    token="-2061177349813391371"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="5026" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2200" />
+    <task
+        name="verifier"
+        duration="686" />
+
+    <artifact
+        location="D:\Projects_Win\Android uCube Lib v1.2.4.0\Android uCube Lib v1.2.4.0\testApp\build\outputs\apk\testApp-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="2250684146978"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\Projects_Win\Android uCube Lib v1.2.4.0\Android uCube Lib v1.2.4.0\testApp\build\outputs\apk\testApp-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

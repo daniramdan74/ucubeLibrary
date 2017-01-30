@@ -1,0 +1,4 @@
+#Mon Jan 30 08:55:01 ICT 2017
+base.0=D\:\\Android\\Projects\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\Android\\Projects\\Android uCube Lib v1.2.4.0\\Android uCube Lib v1.2.4.0\\testApp\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
